@@ -23,7 +23,7 @@ fileManager.currentDirectoryPath
 
 let newDirectory = NSHomeDirectory().stringByAppendingPathComponent("tmp-from-swift")
 
-if fileManager .createDirectoryAtPath(newDirectory, withIntermediateDirectories: true, attributes: nil, error: nil) == false {
+if fileManager.createDirectoryAtPath(newDirectory, withIntermediateDirectories: true, attributes: nil, error: nil) == false {
     println("Failed to create directory")
 }
 
